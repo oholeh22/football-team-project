@@ -1,0 +1,112 @@
+/* global.css */
+
+/* Base typography */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;      /* базовый размер шрифта */
+    line-height: 24px;    /* высота строки */
+    color: #333333;
+    background-color: #ffffff;
+  }
+  
+  /* Заголовки */
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  h5 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  h6 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  
+  /* Параграфы */
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  
+  /* Ссылки */
+  a {
+    color: #006837;       /* зелёный цвет клуба */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Кнопки */
+  button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #006837;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Формы — базовый инпут */
+  input,
+  textarea {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  /* Списки */
+  ul,
+  ol {
+    margin-left: 24px;
+    margin-bottom: 16px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  

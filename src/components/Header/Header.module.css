@@ -1,15 +1,120 @@
+:root {
+  --color-green: #006837;
+  --color-white: #ffffff;
+  --header-height: 60px;
+}
+
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;     
+  gap: 32px;                   
+  padding: 0 16px;
+  height: var(--header-height);
+  background-color: var(--color-green);
+  position: relative;
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: auto;
+}
+
+.title {
+  font-family: 'Bebas Neue', sans-serif;    
+  font-size: 24px;                           
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+  background: linear-gradient(90deg, #A8E063 0%, #56AB2F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow:
+    1px 1px 0 #00220F,
+   -1px -1px 0 #00220F,
+    1px -1px 0 #00220F,
+   -1px 1px 0 #00220F;
+}
+
+.burger {
+  background: none;
+  border: none;
+  color: var(--color-white);
+  font-size: 24px;        
+  cursor: pointer;
+  display: block;
+}
+
+.nav {
+  display: none;
+  flex-direction: column;
+  background: var(--color-green);
+  position: absolute;
+  top: var(--header-height);
+  left: 0;
+  right: 0;
+  padding: 16px 0;          
+}
+
+.nav a {
+  color: var(--color-white);
+  padding: 8px 16px;        
+  text-decoration: none;
+  font-weight: 500;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav a:hover {
+  transform: scale(1.15);
+}
+
+.open {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .burger {
+    display: none;
   }
-  .logo {
-    height: 3rem;
-  }
+
   .nav {
     display: flex;
-    gap: 1rem;
+    position: static;
+    flex-direction: row;
+    background: transparent;
+    padding: 0;
   }
-  
+
+  .nav a {
+    padding: 0 16px;      
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 0 32px;        
+  }
+  .title {
+    font-size: 20px;         
+  }
+}
