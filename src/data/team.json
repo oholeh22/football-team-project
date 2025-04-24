@@ -1,0 +1,31 @@
+{
+    "players": [
+      { "name": "Lucas Fernández", "position": "Goalkeeper", "number": 1 },
+      { "name": "Michael O'Connor", "position": "Defender", "number": 2 },
+      { "name": "Nikola Petrović", "position": "Defender", "number": 3 },
+      { "name": "Marko Horvat", "position": "Defender", "number": 4 },
+      { "name": "Erik Johansson", "position": "Defender", "number": 5 },
+      { "name": "Chinedu Okafor", "position": "Defender", "number": 6 },
+      { "name": "Tyler Smith", "position": "Defender", "number": 7 },
+      { "name": "Bruno Silva", "position": "Defender", "number": 8 },
+      { "name": "Pierre Dubois", "position": "Midfielder", "number": 9 },
+      { "name": "Carlos Hernández", "position": "Midfielder", "number": 10 },
+      { "name": "Ivan Kuznetsov", "position": "Midfielder", "number": 11 },
+      { "name": "Koji Tanaka", "position": "Goalkeeper", "number": 12 },
+      { "name": "Lee Ji-hoon", "position": "Midfielder", "number": 13 },
+      { "name": "Ahmad Al-Talib", "position": "Midfielder", "number": 14 },
+      { "name": "Samuel Johnson", "position": "Midfielder", "number": 15 },
+      { "name": "Alex Murphy", "position": "Midfielder", "number": 16 },
+      { "name": "Diego López", "position": "Midfielder", "number": 17 },
+      { "name": "David Müller", "position": "Forward", "number": 18 },
+      { "name": "João Pereira", "position": "Forward", "number": 19 },
+      { "name": "Christian Berg", "position": "Forward", "number": 20 },
+      { "name": "Liam O'Reilly", "position": "Forward", "number": 21 },
+      { "name": "Sebastian Kowalski", "position": "Forward", "number": 22 },
+      { "name": "Ahmed El-Sayed", "position": "Goalkeeper", "number": 23 }
+    ],
+    "coaches": [
+      { "name": "Jordi Vilanova", "role": "Head Coach" },
+      { "name": "Oscar Dominguez", "role": "Assistant Coach" }
+    ]
+  }

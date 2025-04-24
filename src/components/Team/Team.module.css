@@ -1,0 +1,39 @@
+.container {
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  .brand {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  .item {
+    margin-bottom: 6px;
+    font-size: 16px;
+  }
+  .number {
+    font-weight: 600;
+  }
+  .name {
+    font-style: italic;
+  }
+  .position,
+  .role {
+    color: #555;
+  }

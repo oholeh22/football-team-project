@@ -1,13 +1,19 @@
-import React from 'react'
-import './App.css'
-import Header from './components/Header/Header'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Team from './components/Team/Team';
+import './App.css'; 
 
-function App() {
+export default function App() {
   return (
-    <>
+    <Router>
       <Header />
-    </>
-  )
-}
 
-export default App
+      <main>
+        <Routes>
+          <Route path="/team" element={<Team />} />
+        </Routes>
+      </main>
+    </Router>
+  );
+}
